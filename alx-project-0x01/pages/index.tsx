@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
 import Header from "@/components/layout/Header";
 import Button from "@/components/common/Button";
+import Footer from "@/components/layout/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -119,7 +120,7 @@ const Home: React.FC = () => {
   return (
     <div className="flex flex-col h-screen">
       <Header />
-      <main className="flex flex-grow items-center justify-center bg-gradient-to-r from-blue-500 to-purple-600">
+      <main className="flex flex-grow items-center justify-center bg-gradient-to-r from-blue-500 to-purple-600 h-screen">
         <div className="text-center">
           <h1 className=" text-5xl font-bold text-white">
             Welcome to Our Application!
@@ -135,7 +136,7 @@ const Home: React.FC = () => {
           />
         </div>
       </main>
-      
+      <Footer />
     </div>
   )
 }
