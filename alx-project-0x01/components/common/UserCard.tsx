@@ -6,7 +6,9 @@ import { UserProps } from "@/interfaces";
 const Users: React.FC<UserProps[]> = ({ users }) => {
     console.log(users);
     return(
-        
+        <div className="flex flex-col h-screen">
+            
+        </div>
     )
 }
 
