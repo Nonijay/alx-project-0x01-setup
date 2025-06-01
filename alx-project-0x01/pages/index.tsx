@@ -123,7 +123,7 @@ const Home: React.FC = () => {
       <main className="flex flex-grow items-center justify-center bg-gradient-to-r from-blue-500 to-purple-600 h-screen">
         <div className="text-center">
           <h1 className=" text-5xl font-bold text-white">
-            Welcome to Our Application!
+             Welcome to our Application !
           </h1>
           <p className="mt-4 text-x1 text-white">
             We're glad you're here. Explore and enjoy your experience.
