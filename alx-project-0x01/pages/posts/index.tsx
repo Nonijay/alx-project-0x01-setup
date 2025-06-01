@@ -4,6 +4,8 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import React from "react";
 
+
+
 const Posts: React.FC<PostProps[]> = ({ posts }) => {
     console.log(posts)
     return (
