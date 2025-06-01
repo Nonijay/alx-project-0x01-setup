@@ -14,4 +14,4 @@ const Posts: React.FC = () => {
     )
 }
 
-export default PostCard
+export default Posts
