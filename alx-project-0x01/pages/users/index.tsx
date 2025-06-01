@@ -4,8 +4,9 @@ import React from "react";
 
 const UserOne: React.FC = () => {
     return (
-        <main className=" p-0">
+        <main className=" flex justify-center items-center h-screen">
             <Header />
+            <h1 className="text-2xl"> Welcome User</h1>
             <Footer />
         </main>
         
