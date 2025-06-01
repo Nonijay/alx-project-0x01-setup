@@ -1,9 +1,10 @@
 import React from "react";
+import { ButtonProps } from "@/interfaces";
 
-const Button: React.FC = () => {
+const Button: React.FC<ButtonProps> = ({title}) => {
     return (
-        <button className="rounded-full bg-blue-500 px-5 py-2 m-3 cursor-pointer hover:bg-blue-900">
-            Check More
+        <button className="mt-6 px-6 py-3 bg-white text-blue-500 rounded-full font-semibold hover:bg-gray-200 transition">
+            {title}
         </button>
     )
 }

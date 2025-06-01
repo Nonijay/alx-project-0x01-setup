@@ -1,5 +1,7 @@
 import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
+import Header from "@/components/layout/Header";
+import Button from "@/components/common/Button";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -115,8 +117,25 @@ const geistMono = Geist_Mono({
 // }
 const Home: React.FC = () => {
   return (
-    <div className="flex justify-center items-center h-screen">
-      <h1 className="text-7x1 font-thin">Welcome Page of New Tutorial</h1>
+    <div className="flex flex-col h-screen">
+      <Header />
+      <main className="flex flex-grow items-center justify-center bg-gradient-to-r from-blue-500 to-purple-600">
+        <div className="text-center">
+          <h1 className=" text-5xl font-bold text-white">
+            Welcome to Our Application!
+          </h1>
+          <p className="mt-4 text-x1 text-white">
+            We're glad you're here. Explore and enjoy your experience.
+          </p>
+          <button className="mt-6 mr-2 px-6 py-3 bg-white text-blue-500 rounded-full font-semibold hover:bg-gray-200 transition">
+            Get Started
+          </button>
+          <Button 
+            title= "Get a Quote"
+          />
+        </div>
+      </main>
+      
     </div>
   )
 }
