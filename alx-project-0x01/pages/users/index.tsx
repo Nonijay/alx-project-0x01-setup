@@ -12,3 +12,5 @@ const UserOne: React.FC = () => {
         
     )
 }
+
+export default UserOne
