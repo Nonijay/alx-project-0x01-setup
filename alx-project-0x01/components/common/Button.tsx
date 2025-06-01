@@ -2,7 +2,7 @@ import React from "react";
 
 const Button: React.FC = () => {
     return (
-        <button className="px-5 py-3">
+        <button className="rounded-full bg-blue-500 px-5 py-2 m-3 cursor-pointer hover:bg-blue-900">
             Check More
         </button>
     )
